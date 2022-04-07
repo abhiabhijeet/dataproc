@@ -8,7 +8,7 @@ yarn rmadmin -refreshNodes
 ````
 
 
-For driver and executor machine \, Launch secondary worker with low 
+For driver and executor machine, Launch secondary worker with low configuration 
 For Driver machine Datanode and NodeManager both need to be shut down
 Driver k liye DN & NM dono off krna hoga
 
