@@ -170,3 +170,6 @@ Memory:-
 `yarn rmadmin -refreshNodes`
 
 `sudo systemctl restart hadoop-yarn-resourcemanager.service`
+
+
+Nodelabels has been configured on YARN now.
