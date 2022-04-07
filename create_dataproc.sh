@@ -1,0 +1,1 @@
+gcloud dataproc clusters create Cluster_NAME --num-masters 1 --region us-central1 --zone "us-central1-b" --master-machine-type n1-standard-8 --master-boot-disk-size 300 --num-workers 2 --worker-machine-type n1-standard-8 --worker-boot-disk-size 500 --secondary-worker-boot-disk-size 100  --image-version 2.0.27-debian10 --project $PROJECT_NAME --subnet=subnet_name
