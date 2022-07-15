@@ -1,4 +1,4 @@
-* Create dataproc cluser depending on the requirement. Here I have created dataproc cluster with 1 master and 2 workers.
+* Create dataproc cluser depending on the requirement. Here I am taking dataproc cluster with 1 master and 2 workers.
 
 `gcloud dataproc clusters create testing-cluster --num-masters 1 --region us-central1 --zone "us-central1-b" --master-machine-type n1-standard-8 --master-boot-disk-size 300 --num-workers 2 --worker-machine-type n1-standard-8 --worker-boot-disk-size 500 --secondary-worker-boot-disk-size 100  --image-version 2.0.29-debian10 --project $PROJECT_NAME --subnet=$SUBNET_NAME`
 
